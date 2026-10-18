@@ -6,6 +6,7 @@ import {
   useRef,
   useState,
   useSyncExternalStore,
+  type ReactNode,
 } from 'react';
 import type { SavedSchedule } from '@/domain/schedule';
 import { formatDay, formatUpdatedAt } from '@/domain/format-date';
@@ -22,9 +23,11 @@ import { scheduleStatusAnnouncement } from '@/lib/a11y/status-announcement';
 export function DailyShiftScreen({
   schedule: initialSchedule,
   scenario = 'normal',
+  demoNotice,
 }: {
   schedule: SavedSchedule;
   scenario?: DemoScenario;
+  demoNotice?: ReactNode;
 }) {
   const [session] = useState(() =>
     createUploadSession(initialSchedule, { scenario }),
@@ -136,6 +139,7 @@ export function DailyShiftScreen({
           <span className="text-text-secondary">Staff schedule</span>
         </div>
       </header>
+      {demoNotice}
       <main
         id="main-content"
         tabIndex={-1}
