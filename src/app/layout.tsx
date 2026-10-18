@@ -16,9 +16,12 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Daily shift | Linden Bakery & Café',
+  title: 'Staff Schedule Demo | Yoko Shiina — UX Architect',
   description:
-    'A daily staff schedule with CSV editing and clear upload outcomes.',
+    'An interactive staff scheduling demo by Yoko Shiina, UX Architect, demonstrating CSV validation, update feedback, and recovery flows.',
+  robots: {
+    index: false,
+  },
 };
 
 export default function RootLayout({
