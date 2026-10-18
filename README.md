@@ -1,8 +1,8 @@
 # Linden Bakery & Café — Staff Schedule Dashboard
 
-![dashboard screenshot](./public/images/mock-image.png)
-
-![Portfolio · interactive specification screenshot](./public/images/sample-spec.png)
+|                                  [Live implementation](https://ux-sample-dashboard.solastudio.studio/)                                  |                                         [Interactive UX specification](https://ux.solastudio.studio/spec-sample)                                         |
+| :-------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![Staff schedule dashboard showing a saved schedule after CSV upload](./public/images/mock-image.png)](./public/images/mock-image.png) | [![Interactive UX specification with a state diagram alongside the example dashboard](./public/images/sample-spec.png)](./public/images/sample-spec.png) |
 
 A focused implementation sample from Yoko’s UX Architect portfolio: the daily CSV-upload workflow for a fictional bakery’s staff schedule. It implements a selected part of the portfolio’s screen specification, using the linked Figma daily-shift designs as the interface reference. The sample demonstrates how validation rules, outcome states, recovery guidance, and accessibility decisions translate into working code.
 
