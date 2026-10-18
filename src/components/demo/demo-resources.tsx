@@ -9,7 +9,8 @@ export function DemoResources() {
         <div className={styles.copy}>
           <h2 id="demo-resources-title">Try the demo</h2>
           <p id="demo-resources-description">
-            Download and unzip the example files, then choose one with Upload CSV.
+            Download and unzip the example files, then choose one with Upload
+            CSV.
           </p>
         </div>
         <a
