@@ -1,0 +1,38 @@
+{
+  "name": "sample-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start --port 3001",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "format": "prettier --write .",
+    "check": "npm run lint && npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "1.1.23",
+    "clsx": "2.1.1",
+    "lucide-react": "1.31.0",
+    "next": "16.3.8",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.8",
+    "prettier": "^3.9.10",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  }
+}
