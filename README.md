@@ -2,8 +2,7 @@
 
 A focused implementation sample from Sola’s UX Architect portfolio: the daily CSV-upload workflow for a fictional bakery’s staff schedule. It implements a selected part of the portfolio’s screen specification, using the linked Figma daily-shift designs as the interface reference. The sample demonstrates how validation rules, outcome states, recovery guidance, and accessibility decisions translate into working code.
 
-<!-- - **[Live demo](公開URL)** — try the daily CSV-upload workflow. Files are processed in your browser; saved changes reset when the page is refreshed. -->
-
+- **[Live demo](https://ux-sample-dashboard.solastudio.studio/)** — try the daily CSV-upload workflow. Files are processed in your browser; saved changes reset when the page is refreshed.
 - **[Portfolio · interactive specification sample](https://ux.solastudio.studio/spec-sample)** — explore the relationship between interface behavior and its specification.
 - **[Figma · dashboard design](https://www.figma.com/design/mLdmFMaurH8tFL0VwA6TuK/Linden-Bakery---Caf%C3%A9---Staff-Schedule-Dashboard?node-id=0-1)** — inspect the design file.
 - **[Source repository](https://github.com/yokoworks/ux-sample-dashboard)** — explore and run this implementation.
