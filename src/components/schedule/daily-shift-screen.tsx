@@ -13,6 +13,7 @@ import { formatDay, formatUpdatedAt } from '@/domain/format-date';
 import { exportScheduleCsv } from '@/lib/csv/export-schedule';
 import { ShiftTable } from './shift-table';
 import { UploadBar } from './upload-bar';
+import { ShopLogo } from '@/components/ui/shop-logo';
 import { ResultPanel } from './result-panel';
 import { createUploadSession } from '@/lib/upload/session';
 import { canUseSchedule, needsReload } from '@/domain/upload';
@@ -132,7 +133,7 @@ export function DailyShiftScreen({
       </a>
       <header className="app-header">
         <div className="page-container flex flex-wrap items-center gap-2 text-sm leading-5">
-          <span className="font-semibold">Linden Bakery &amp; Café</span>
+          <ShopLogo />
           <span aria-hidden="true" className="text-text-secondary">
             /
           </span>

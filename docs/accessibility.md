@@ -34,7 +34,7 @@ Manual checks were reported on macOS 26.6.1 (25G76), with Safari 27.0 (21625.1.2
 - Chrome forced-colors emulation: shift bars, button boundaries, keyboard focus indicators, and textual warnings remained distinguishable.
 - Chrome reduced-motion emulation: processing icons did not rotate, and processing and completion states remained available.
 
-Source-color calculations found at least 4.5:1 contrast for the checked active text/background combinations; the lowest checked combination was the success heading at approximately 4.79:1. Shift bars exceeded 3:1 against both ordinary and warning cell backgrounds. This is a source-level color check, separate from rendered-browser verification.
+Source-color calculations found at least 4.5:1 contrast for the checked active text/background combinations; the lowest checked combination was secondary text on the muted surface at approximately 4.64:1. Shift bars exceeded 3:1 against both ordinary and warning cell backgrounds. This is a source-level color check, separate from rendered-browser verification.
 
 ### Notification behavior
 
